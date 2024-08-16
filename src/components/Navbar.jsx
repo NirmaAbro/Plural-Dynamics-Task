@@ -15,9 +15,9 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white shadow-md p-4 border-t-4">
+    <nav className="p-4">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
-        <ul className="hidden md:flex space-x-6">
+        <ul className="hidden md:flex space-x-6 ">
           {navlinks.map((link, index) => (
             <li className="text-secondary font-medium" key={index}>
               <Link
@@ -33,11 +33,11 @@ const Navbar = () => {
         </ul>
 
         {/* Landing Text */}
-        <div className="text-lg font-bold text-secondary">Landing</div>
+        <div className="text-lg font-bold text-secondary ">Landing</div>
 
         {/* Right Button */}
         <div className="hidden md:block">
-          <button className="bg-secondary text-white px-4 py-2 rounded-md">
+          <button className="bg-secondary text-white px-4 py-2 rounded-md ">
             Buy Now
           </button>
         </div>
