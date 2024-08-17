@@ -42,21 +42,21 @@ function Footer() {
         </div>
 
         {/* Social Icons */}
-        <div className="flex space-x-4 mt-4 lg:mt-0 lg:mr-20">
+        <div className="flex space-x-4 gap-3 mt-4 lg:mt-0 lg:mr-20">
           <a href="#" className="text-secondary w-4 h-4">
-            <FaFacebookF />
+            <FaFacebookF className="text-2xl md:text-2xl" />
           </a>
           <a href="#" className="text-secondary w-4 h-4">
-            <FaLinkedinIn />
+            <FaLinkedinIn className="text-2xl md:text-2xl " />
           </a>
           <a href="#" className="text-secondary w-4 h-4">
-            <FaTwitter />
+            <FaTwitter className="text-2xl md:text-2xl  " />
+          </a>
+          <a href="#" className="text-secondary w-4 h-4 ">
+            <FaYoutube className="text-2xl md:text-2xl " />
           </a>
           <a href="#" className="text-secondary w-4 h-4">
-            <FaYoutube />
-          </a>
-          <a href="#" className="text-secondary w-4 h-4">
-            <FaInstagram />
+            <FaInstagram className="text-2xl md:text-2xl  " />
           </a>
         </div>
       </div>

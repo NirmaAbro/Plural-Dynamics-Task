@@ -19,7 +19,7 @@ function Hero() {
           consequat massa quis enim.
         </p>
         <div className="mt-6 flex space-x-4">
-          <button className="px-6 py-3 bg-secondary text-white rounded-md">
+          <button className=" p-2 md:px-6 md:py-3 bg-secondary text-white rounded-md">
             Call to Action
           </button>
           <button className="px-1 py-1 md:px-6 md:py-3 bg-white text-secondary  rounded-md border border-secondary">
