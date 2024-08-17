@@ -4,7 +4,9 @@ import SectionTwo from "./components/SectionTwo";
 import SectionThree from "./components/SectionThree";
 import img1 from "./images/undraw_happy_news_hxmt.svg";
 import img2 from "./images/undraw_social_influencer_sgsv.svg";
-import img3 from "./images/undraw_mention_6k5d.svg"
+import img3 from "./images/undraw_mention_6k5d.svg";
+import SeconLastCom from "./components/SeconLastCom";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -40,7 +42,7 @@ function App() {
           </>
         }
       />
-       <SectionThree
+      <SectionThree
         imgSrc={img3}
         title="Another Title"
         description={
@@ -54,6 +56,8 @@ function App() {
           </>
         }
       />
+      <SeconLastCom />
+      <Footer />
     </div>
   );
 }

@@ -8,7 +8,7 @@ function Section({ imgSrc, title, description }) {
         <img
           src={imgSrc}
           alt=""
-          className="w-full h-full md:w-[540px] m-auto justify-center items-center text-center mt-48 md:mt-0"
+          className="w-full h-full md:w-[480px] m-auto justify-center items-center text-center mt-48 md:mt-0"
         />
       </div>
 
