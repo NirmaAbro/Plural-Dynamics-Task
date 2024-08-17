@@ -1,12 +1,13 @@
 import React from "react";
 import path from "../images/Path.png";
 import group from "../images/Group.png";
+// import hero from "../images/hero.jpg";
 
 function Hero() {
   return (
     <div className="relative w-full h-screen flex">
       {/* Left Side with Content */}
-      <div className=" md:block lg:w-1/2 h-full mt-32 flex flex-col justify-center items-center bg-primary p-8">
+      <div className=" md:block lg:w-1/2 leading-10 h-full mt-32 flex flex-col justify-center items-center p-8">
         <h1 className="text-4xl font-bold text-secondary relative">
           Introduce Your Product Quickly & Effectively
         </h1>
@@ -29,14 +30,19 @@ function Hero() {
 
       {/* Right Side with Background Image */}
       <div
-        className="hidden lg:block w-[70%] h-full bg-cover bg-center absolute top-0 right-0"
+        className="hidden lg:block w-[50%] h-full bg-cover bg-center"
         style={{ backgroundImage: `url(${path})` }}
       >
         {/* Overlayed Image */}
-        <div className="absolute inset-0 right-0 flex flex-col justify-right items-end text-right mt-32 z-10">
-          <img src={group} alt="Decorative image" className="w-1/2 h-full   " />
+        <div className="absolute inset-0  flex flex-col justify-right items-end text-right mt-32">
+          <img src={group} alt="" className="min-w-2 h-full   " />
         </div>
       </div>
+      {/* <div className="relative hidden lg:block w-[50%] h-full bg-cover bg-center">
+        <div className="absolute inset-y-0 right-0 flex items-end">
+          <img src={hero} alt="" className="h-full" />
+        </div>
+      </div> */}
     </div>
   );
 }
